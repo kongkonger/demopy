@@ -1,0 +1,106 @@
+[INFO  - 2020-08-16T16:43:11.148Z] GhostDriver - Main - running on port 58376
+[INFO  - 2020-08-16T16:43:14.048Z] Session [93e682c0-dfdf-11ea-b875-e3a28bc657e3] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2020-08-16T16:43:14.048Z] Session [93e682c0-dfdf-11ea-b875-e3a28bc657e3] - page.customHeaders:  - {}
+[INFO  - 2020-08-16T16:43:14.049Z] Session [93e682c0-dfdf-11ea-b875-e3a28bc657e3] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-7-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2020-08-16T16:43:14.049Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 93e682c0-dfdf-11ea-b875-e3a28bc657e3
+[ERROR - 2020-08-16T16:44:55.769Z] Session [93e682c0-dfdf-11ea-b875-e3a28bc657e3] - page.onError - msg: bucketId设置失败 [object Object]
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-08-16T16:44:55.770Z] Session [93e682c0-dfdf-11ea-b875-e3a28bc657e3] - page.onError - stack:
+  (anonymous function) (https://vm.gtimg.cn/tencentvideo_v1/script/txv.core.js?v=20190402:6)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-08-16T16:44:56.310Z] Session [93e682c0-dfdf-11ea-b875-e3a28bc657e3] - page.onError - msg: ReferenceError: Can't find variable: Promise
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-08-16T16:44:56.310Z] Session [93e682c0-dfdf-11ea-b875-e3a28bc657e3] - page.onError - stack:
+  getBossUrl (https://vm.gtimg.cn/tencentvideo_v1/script/txv.core.js?v=20190402:6)
+  (anonymous function) (https://vm.gtimg.cn/tencentvideo_v1/script/txv.core.js?v=20190402:6)
+  s (https://vm.gtimg.cn/tencentvideo_v1/script/txv.core.js?v=20190402:6)
+  (anonymous function) (https://vm.gtimg.cn/tencentvideo_v1/script/txv.core.js?v=20190402:6)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-08-16T16:46:08.173Z] Session [93e682c0-dfdf-11ea-b875-e3a28bc657e3] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'e.pause()')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-08-16T16:46:08.173Z] Session [93e682c0-dfdf-11ea-b875-e3a28bc657e3] - page.onError - stack:
+  (anonymous function) (https://vm.gtimg.cn/tencentvideo/script/vchannel/index.5adf.js:1)
+  each (https://vm.gtimg.cn/tencentvideo_v1/script/txv.core.js?v=20190402:1)
+  each (https://vm.gtimg.cn/tencentvideo_v1/script/txv.core.js?v=20190402:1)
+  h (https://vm.gtimg.cn/tencentvideo/script/vchannel/index.5adf.js:1)
+  V (https://vm.gtimg.cn/tencentvideo/script/vchannel/index.5adf.js:1)
+  (anonymous function) (https://vm.gtimg.cn/tencentvideo/script/vchannel/index.5adf.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-08-16T16:46:13.170Z] Session [93e682c0-dfdf-11ea-b875-e3a28bc657e3] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'e.pause()')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-08-16T16:46:13.170Z] Session [93e682c0-dfdf-11ea-b875-e3a28bc657e3] - page.onError - stack:
+  (anonymous function) (https://vm.gtimg.cn/tencentvideo/script/vchannel/index.5adf.js:1)
+  each (https://vm.gtimg.cn/tencentvideo_v1/script/txv.core.js?v=20190402:1)
+  each (https://vm.gtimg.cn/tencentvideo_v1/script/txv.core.js?v=20190402:1)
+  h (https://vm.gtimg.cn/tencentvideo/script/vchannel/index.5adf.js:1)
+  V (https://vm.gtimg.cn/tencentvideo/script/vchannel/index.5adf.js:1)
+  (anonymous function) (https://vm.gtimg.cn/tencentvideo/script/vchannel/index.5adf.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-08-16T16:46:18.171Z] Session [93e682c0-dfdf-11ea-b875-e3a28bc657e3] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'e.pause()')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-08-16T16:46:18.172Z] Session [93e682c0-dfdf-11ea-b875-e3a28bc657e3] - page.onError - stack:
+  (anonymous function) (https://vm.gtimg.cn/tencentvideo/script/vchannel/index.5adf.js:1)
+  each (https://vm.gtimg.cn/tencentvideo_v1/script/txv.core.js?v=20190402:1)
+  each (https://vm.gtimg.cn/tencentvideo_v1/script/txv.core.js?v=20190402:1)
+  h (https://vm.gtimg.cn/tencentvideo/script/vchannel/index.5adf.js:1)
+  V (https://vm.gtimg.cn/tencentvideo/script/vchannel/index.5adf.js:1)
+  (anonymous function) (https://vm.gtimg.cn/tencentvideo/script/vchannel/index.5adf.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-08-16T16:46:23.175Z] Session [93e682c0-dfdf-11ea-b875-e3a28bc657e3] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'e.pause()')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-08-16T16:46:23.176Z] Session [93e682c0-dfdf-11ea-b875-e3a28bc657e3] - page.onError - stack:
+  (anonymous function) (https://vm.gtimg.cn/tencentvideo/script/vchannel/index.5adf.js:1)
+  each (https://vm.gtimg.cn/tencentvideo_v1/script/txv.core.js?v=20190402:1)
+  each (https://vm.gtimg.cn/tencentvideo_v1/script/txv.core.js?v=20190402:1)
+  h (https://vm.gtimg.cn/tencentvideo/script/vchannel/index.5adf.js:1)
+  V (https://vm.gtimg.cn/tencentvideo/script/vchannel/index.5adf.js:1)
+  (anonymous function) (https://vm.gtimg.cn/tencentvideo/script/vchannel/index.5adf.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-08-16T16:46:28.181Z] Session [93e682c0-dfdf-11ea-b875-e3a28bc657e3] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'e.pause()')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-08-16T16:46:28.181Z] Session [93e682c0-dfdf-11ea-b875-e3a28bc657e3] - page.onError - stack:
+  (anonymous function) (https://vm.gtimg.cn/tencentvideo/script/vchannel/index.5adf.js:1)
+  each (https://vm.gtimg.cn/tencentvideo_v1/script/txv.core.js?v=20190402:1)
+  each (https://vm.gtimg.cn/tencentvideo_v1/script/txv.core.js?v=20190402:1)
+  h (https://vm.gtimg.cn/tencentvideo/script/vchannel/index.5adf.js:1)
+  V (https://vm.gtimg.cn/tencentvideo/script/vchannel/index.5adf.js:1)
+  (anonymous function) (https://vm.gtimg.cn/tencentvideo/script/vchannel/index.5adf.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-08-16T16:46:33.181Z] Session [93e682c0-dfdf-11ea-b875-e3a28bc657e3] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'e.pause()')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-08-16T16:46:33.181Z] Session [93e682c0-dfdf-11ea-b875-e3a28bc657e3] - page.onError - stack:
+  (anonymous function) (https://vm.gtimg.cn/tencentvideo/script/vchannel/index.5adf.js:1)
+  each (https://vm.gtimg.cn/tencentvideo_v1/script/txv.core.js?v=20190402:1)
+  each (https://vm.gtimg.cn/tencentvideo_v1/script/txv.core.js?v=20190402:1)
+  h (https://vm.gtimg.cn/tencentvideo/script/vchannel/index.5adf.js:1)
+  V (https://vm.gtimg.cn/tencentvideo/script/vchannel/index.5adf.js:1)
+  (anonymous function) (https://vm.gtimg.cn/tencentvideo/script/vchannel/index.5adf.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-08-16T16:46:38.194Z] Session [93e682c0-dfdf-11ea-b875-e3a28bc657e3] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'e.pause()')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-08-16T16:46:38.195Z] Session [93e682c0-dfdf-11ea-b875-e3a28bc657e3] - page.onError - stack:
+  (anonymous function) (https://vm.gtimg.cn/tencentvideo/script/vchannel/index.5adf.js:1)
+  each (https://vm.gtimg.cn/tencentvideo_v1/script/txv.core.js?v=20190402:1)
+  each (https://vm.gtimg.cn/tencentvideo_v1/script/txv.core.js?v=20190402:1)
+  h (https://vm.gtimg.cn/tencentvideo/script/vchannel/index.5adf.js:1)
+  V (https://vm.gtimg.cn/tencentvideo/script/vchannel/index.5adf.js:1)
+  (anonymous function) (https://vm.gtimg.cn/tencentvideo/script/vchannel/index.5adf.js:1)
+
+  phantomjs://platform/console++.js:263 in error
