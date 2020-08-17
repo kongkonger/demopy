@@ -87,7 +87,12 @@ def save_to_excel(soup):
     list = soup.find(class_='wrapper_main').find_all(class_ = 'result_item result_item_h _quickopen')
     for item in list:
         try:
-            item_title = item.find(class_ ='desc_text').get('title')
+            # cmc 判断属性是否存在 ！！！
+            if (item.find(class_='desc_text') != None):
+                item_title = item.find(class_='desc_text').get('title')
+            else:
+                item_title = item.find('img').get('alt')
+            # item_title = item.find(class_ ='desc_text').get('title')
             item_img_link = item.find('img').get('src')
             item_video_link = item.find(class_ ='figure result_figure').get('href')
 
@@ -126,6 +131,7 @@ def save_to_excel(soup):
             sheet.write(n,3,item_date)
             # sheet.write(n,4,item_biubiu)
             # sheet.write(n,5,item_date)
+            n = n + 1
         except Exception:
             n=n+1
 
